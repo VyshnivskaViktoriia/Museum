@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/controller.css">
+    <link rel="stylesheet" href="CSS/Pages/addMuseum.css">
+    <title>Експонати</title>
+</head>
+<body>
+    <header class="head-page">
+        <div class="burger-body">
+            <span class="first"></span>
+            <span class="middle"></span>
+            <span class="second"></span>
+        </div>
+
+        <nav class="head_nav">
+            <ul class="nav_list">
+                <li class="nav_list-item"><a href="index.html" class="nav_list-link">Головна</a></li>
+                <li class="nav_list-item"><a href="MyMuseums.html" class="nav_list-link">Мої музеї</a></li>
+                <li class="nav_list-item"><a href="Authorization.html" class="nav_list-link">Вхід</a></li>
+            </ul>
+        </nav>
+
+        <div class="head_content">
+            <h1>Створення музея етап 2</h1>
+            <p>Створи експонати</p>
+        </div>
+    </header>
+
+    <main>
+        <div class="wrapper">
+            <h2 class="NameExhibit">Оберіть зображення експонату</h2>
+            <label>
+                <input type="file" hidden>
+                <div class="addImage">
+                    <div class="addImage-button">
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </label>
+            <label>
+               <textarea name="About" placeholder="Напишіть про експонат" class="AboutMuseum"></textarea>
+            </label>
+            <div class="button-container">
+                <a href="MuseumExhibits.html"><button class="createExhibit-btn">Перейти до створення наступного</button></a>
+                <a href="MyMuseums.html"><button class="createExhibit-btn">Закінчити створення</button></a>
+            </div>
+        </div>
+    </main>
+    <script src="JS/burger.js"></script> 
+</body>
+</html>

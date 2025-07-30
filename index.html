@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/controller.css">
+    <link rel="stylesheet" href="CSS/Pages/Home.css">
+    <title>Головна</title>
+</head>
+<body>
+    <header class="head-page">
+        <div class="burger-body">
+            <span class="first"></span>
+            <span class="middle"></span>
+            <span class="second"></span>
+        </div>
+        <nav class="head_nav">
+            <ul class="nav_list">
+                <li class="nav_list-item"><a href="index.html" class="nav_list-link">Головна</a></li>
+                <li class="nav_list-item"><a href="MyMuseums.html" class="nav_list-link">Мої музеї</a></li>
+                <li class="nav_list-item"><a href="Authorization.html" class="nav_list-link">Вхід</a></li>
+            </ul>
+        </nav>
+        <div class="head_content">
+            <h1>Музейний простір</h1>
+            <p>Відкривай світ музеїв онлайн</p>
+            <div class="search-container">
+                <input type="text" placeholder="Пошук" class="search-input">
+                <img src="Images/search.png" alt="пошук">
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="wrapper">
+            <h2>Наявні музеї</h2>
+            <div class="museums-container">
+                <div class="museum_card-container">
+                    <img src="Images/statue.png" alt="" class="museum_card-img">
+                    <h3>Назва</h3>
+                    <p>Жанри: історія</p>
+                    <a href="Museum.html"><button class="museum_card-visit">Відвідати</button></a>
+                </div>
+
+                <div class="museum_card-container">
+                    <img src="Images/statue.png" alt="" class="museum_card-img">
+                    <h3>Назва</h3>
+                    <p>Жанри: історія</p>
+                    <a href="Museum.html"><button class="museum_card-visit">Відвідати</button></a>
+                </div>
+
+                <div class="museum_card-container">
+                    <img src="Images/statue.png" alt="" class="museum_card-img">
+                    <h3>Назва</h3>
+                    <p>Жанри: історія</p>
+                    <a href="Museum.html"><button class="museum_card-visit">Відвідати</button></a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="JS/burger.js"></script>        
+</body>
+</html>

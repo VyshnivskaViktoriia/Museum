@@ -1,0 +1,23 @@
+:root {
+    /* Фони */
+    --color-background-main: #f5f3ef;        /* світлий, майже теплий фон */
+    --color-background-header: #e8e6e1;      /* трішки темніший для навігації */
+    --color-background-card: #ffffff;        /* білий фон карток */
+    --color-background-input: #ffffff;       /* чистий інпут */
+    --color-background-hover: #8f8f8f;      /* темний акцент (наприклад, для кнопок) */
+    --color-background-button: #dcd9d3;     
+  
+    /* Текст */
+    --color-text-primary: #1c1b1a;           /* насичений чорний текст */
+    --color-text-secondary: #5c5a57;         /* сірий для описів, підписів */
+    --color-text-button: #ffffff;            /* білий текст на темних кнопках */
+  
+    /* Акценти */
+    --color-accent: #8c6f4e;                 /* колір «під бронзу» або «старовину» */
+    --color-accent-light: #c5b9aa;           /* світлий акцент для деталей */
+  
+    /* Рамки, тіні */
+    --color-border: #d9d5cf;                 /* світла межа */
+    --color-shadow: rgba(0, 0, 0, 0.04);     /* легка тінь */
+  }
+  

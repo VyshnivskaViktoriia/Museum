@@ -1,0 +1,71 @@
+/* Кнопка добавити */
+.but-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.add-button {
+    background-color: rgb(45, 202, 45);
+    min-height: 50px;
+    min-width: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    transition: all 0.2s ease;
+}
+
+.add-button span {
+    display: block;
+    min-height: 3px;
+    min-width: 30px;
+    background-color: #ffffff;
+    position: absolute;
+}
+
+.add-button span:last-child {
+    transform: rotateZ(90deg);
+}
+
+.add-button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    background-color: rgb(41, 183, 41);
+}
+
+/* Кнопка видалення */
+.museum_card-container {
+    position: relative;
+}
+
+.delete-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    background-color: red;
+    border-radius: 50%;
+    border: none;
+    min-width: 40px;
+    min-height: 40px;
+    top: -10px;
+    right: -10px;
+}
+
+.delete-button span {
+    display: block;
+    min-width: 30px;
+    min-height: 3px;
+    background-color: #ffffff;
+    position: absolute;
+}
+
+.delete-button span {
+    transform: rotate(45deg);
+}
+
+.delete-button span:last-child {
+    transform: rotate(-45deg);
+}
